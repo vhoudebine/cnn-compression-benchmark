@@ -11,6 +11,8 @@ import sklearn
 from keras.models import Model
 from kerassurgeon import Surgeon
 
+#test
+
 #function to return pruned filters with l1 method
 def prune_l1(model, n_pruned, layer=None):
     """returns list of indexes of filter to prune or a matrix layer X filter to prune"""
